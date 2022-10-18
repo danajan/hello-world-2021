@@ -11,7 +11,7 @@ int main() {
    std::ifstream soubor("data.txt");
    std::istream_iterator<double> start(soubor), end;
    std::vector<double> data(start, end);
-   std::cout << "pocet nacetnych dat " << data.size() << std::endl;
+   std::cout << "pocet nactenych dat " << data.size() << std::endl;
 
    for (i=1; i < data.size(); ++i) {
         temp=data[i];
